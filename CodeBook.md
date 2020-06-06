@@ -43,7 +43,7 @@ Entire numbers in code column of TidyData_1 replaced with corresponding activity
 
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject
 
-TidyData (180 obs. of 88 variables) is created by sumarizing TidyData_1 taking the means of each variable for each activity and each subject, after groupped by subject and activity.
+TidyData (180 obs. of 88 variables) is created by summarizing TidyData_1 taking the means of each variable for each activity and each subject, after groupped by subject and activity.
 
 Export TidyData into TidyData.txt file.
 
