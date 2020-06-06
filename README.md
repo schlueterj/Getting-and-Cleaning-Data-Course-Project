@@ -19,4 +19,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-'Tidy_Data_out.txt' tidy data set created in step 5 of the instructions
+'TidyData.txt' tidy data set created in step 5 of the instructions
