@@ -1,5 +1,5 @@
 # Code Book
-The R script called run_analysis.R does the following. 
+The R script called run_analysis.R does the following:
 
 Download the dataset:
         Dataset downloaded and extracted under the folder called "UCI HAR Dataset""
