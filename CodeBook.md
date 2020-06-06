@@ -7,19 +7,12 @@ Download the dataset:
 Assign each data to variables:
 
         activities <- activity_labels.txt (6 obs. of 2 variables): Links the class labels with their activity name 
-
         features <- features.txt (561 obs. of 2 variables): List of all features, for details "features_info.txt"
-        
         subject_test <- test/subject_test.txt (2947 obs. of 1 variable): Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-
         x_test <- test/X_test.txt (2947 obs. of 561 variables): Training set
-
         y_test <- test/y_test.txt (2947 obs. of 1 variable): Training labels
-
         subject_train <- test/subject_train.txt (7352 obs. of 1 variable): Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-
         x_train <- test/X_train.txt (7352 obs. of 561 variables): Test set
-        
         y_train <- test/y_train.txt (7352 obs. of 1 variable): Test labels
 
 5 Steps:
@@ -27,11 +20,8 @@ Assign each data to variables:
 1. Merge the training and the test sets to create one data set:
 
         X (10299 obs. of 561 variables) is created by merging x_train and x_test using rbind() function
-        
         Y (10299 obs. of 1 variable)is created by merging y_train and y_test using rbind() 
-        
         Subject (10299 ob.s of 1 variable) created by merging subject_train and subject_test using rbind() function
-
         Merged_Data (10299 obs. of 563 variables) is created by merging Subject, Y and X using cbind() function
 
 2. Extracting only the measurements on the mean and standard deviation for each measurement:
