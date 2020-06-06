@@ -5,9 +5,9 @@ Data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-CodeBook.md is a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
+'CodeBook.md' is a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 
-run_analysis.R is an R script that does the following:
+'run_analysis.R' is an R script that does the following:
 
   1. Merges the training and the test sets to create one data set.
   
