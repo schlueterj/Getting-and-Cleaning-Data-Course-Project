@@ -2,7 +2,12 @@
 The R script called run_analysis.R does the following:
 
 Download the dataset:
-        Dataset downloaded and extracted under the folder called "UCI HAR Dataset""
+
+Data for the project
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Dataset downloaded and extracted under the folder called "UCI HAR Dataset""
 
 Assign each data to variables:
 
