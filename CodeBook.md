@@ -2,25 +2,25 @@
 The R script called run_analysis.R does the following. 
 
 Download the dataset:
-Dataset downloaded and extracted under the folder called "UCI HAR Dataset""
+        Dataset downloaded and extracted under the folder called "UCI HAR Dataset""
 
 Assign each data to variables:
 
-activities <- activity_labels.txt (6 obs. of 2 variables): Links the class labels with their activity name 
+        activities <- activity_labels.txt (6 obs. of 2 variables): Links the class labels with their activity name 
 
-features <- features.txt (561 obs. of 2 variables): List of all features, for details "features_info.txt"
+        features <- features.txt (561 obs. of 2 variables): List of all features, for details "features_info.txt"
         
-subject_test <- test/subject_test.txt (2947 obs. of 1 variable): Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+        subject_test <- test/subject_test.txt (2947 obs. of 1 variable): Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-x_test <- test/X_test.txt (2947 obs. of 561 variables): Training set
+        x_test <- test/X_test.txt (2947 obs. of 561 variables): Training set
 
-y_test <- test/y_test.txt (2947 obs. of 1 variable): Training labels
+        y_test <- test/y_test.txt (2947 obs. of 1 variable): Training labels
 
-subject_train <- test/subject_train.txt (7352 obs. of 1 variable): Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+        subject_train <- test/subject_train.txt (7352 obs. of 1 variable): Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-x_train <- test/X_train.txt (7352 obs. of 561 variables): Test set
+        x_train <- test/X_train.txt (7352 obs. of 561 variables): Test set
         
-y_train <- test/y_train.txt (7352 obs. of 1 variable): Test labels
+        y_train <- test/y_train.txt (7352 obs. of 1 variable): Test labels
 
 5 Steps:
 
